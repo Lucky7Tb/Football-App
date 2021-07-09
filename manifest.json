@@ -1,0 +1,53 @@
+{
+    "name": "PWA Football App",
+    "gcm_sender_id": "1083199324318",
+    "short_name": "Football App",
+    "description": "Aplikasi PWA Sepak bola",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#76ff03",
+    "theme_color": "#76ff03",
+    "icons": [
+        {
+            "src": "/assets/img/icons/Ball-36x36.webp",
+            "sizes": "36x26",
+            "type": "image/webp"
+        },
+        {
+            "src": "/assets/img/icons/Ball-48x48.webp",
+            "sizes": "48x48",
+            "type": "image/webp"
+        },
+        {
+            "src": "/assets/img/icons/Ball-72x72.webp",
+            "sizes": "72x72",
+            "type": "image/webp"
+        },
+        {
+            "src": "/assets/img/icons/Ball-96x96.webp",
+            "sizes": "96x96",
+            "type": "image/webp"
+        },
+        {
+            "src": "/assets/img/icons/Ball-144x144.webp",
+            "sizes": "144x144",
+            "type": "image/webp"
+        },
+        {
+            "src": "/assets/img/icons/Ball-192x192.webp",
+            "sizes": "192x192",
+            "type": "image/webp"
+        },
+        {
+            "src": "/assets/img/icons/Ball-512x512.webp",
+            "sizes": "512x512",
+            "type": "image/webp"
+        },
+        {
+            "src": "/assets/img/icons/Ball-Maskable.webp",
+            "sizes": "512x512",
+            "type": "image/webp",
+            "purpose": "any maskable"
+        }
+    ]
+}

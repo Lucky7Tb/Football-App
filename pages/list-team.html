@@ -1,0 +1,36 @@
+<div class="container">
+    <h3 class="center-align">List Klub Sepak Bola</h3>
+
+    <div class="row">
+        <div class="col s12">
+            <div class="input-field">
+                <select onchange="searchTeamsByLeague(this)">
+                  <option value="" disabled selected>Pilih Liga</option>
+                  <option value="2002">Liga Jerman</option>
+                  <option value="2003">Liga Belanda</option>
+                  <option value="2021">Liga Inggris</option>
+                  <option value="2014">Liga Spanyol</option>
+                  <option value="2015">Liga Prancis</option>
+                </select>
+                <label>Klasemen Liga</label>
+            </div>
+        </div>
+    
+        <div class="col s12 progress mt-1" style="display: none;">
+            <div class="indeterminate"></div>
+        </div>
+    
+        <div class="col s12">
+            <div class="row" id="team-content">
+            </div>
+        </div>
+
+        <div class="fixed-action-btn">
+		    <a href="#" class="btn-floating btn-large" id="to-top-button" onclick="backToTop()">
+		      <i class="large material-icons">arrow_upward</i>
+		    </a>
+	  	</div>
+
+    </div>
+
+</div>
